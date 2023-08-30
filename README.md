@@ -2,8 +2,7 @@
 Boilerplate setup for an api service using Node &amp; ExpressJS
 
 # Installation 
-Run `yarn` 
-Ensure you have nodemon installed globally
+Run `yarn` & ensure you have nodemon installed globally
 
 # Running 
 Run `yarn run dev` - for nodemon to watch and create a live reload when working </br>
