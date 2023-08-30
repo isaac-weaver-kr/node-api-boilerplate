@@ -17,5 +17,5 @@ This package includes the following:
 - Ping & healthcheck routes
 - Jest testing
 - Linting
-- Swagger connected to JSDocs for generated API Docs off comments `/api/api-docs`
+- Swagger connected to JSDocs for generated API Docs from comments `/api/api-docs`
 - Babel configured to build to `/dist`
