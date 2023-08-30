@@ -14,7 +14,7 @@ http://localhost:4000/api-docs
 
 # Includes
 This package includes the following:
-- Ping & healcheck routes
+- Ping & healthcheck routes
 - Jest testing
 - Linting
 - Swagger connected to JSDocs for generated API Docs off comments `/api/api-docs`
