@@ -1,0 +1,28 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": { 
+        "no-console": "error",
+        "strict": 0,
+        "no-invalid-this": 0,
+        "no-unused-vars": ["error", { "vars": "all"}],
+        "padding-line-between-statements": [
+          "error",
+          { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*"},
+          { "blankLine": "any",    "prev": ["const", "let", "var"], "next": ["const", "let", "var"]}
+        ],
+        "semi": ["error", "always"],
+        "no-irregular-whitespace": ["error", { "skipComments": true }],
+        "eqeqeq": "error",
+        "quotes": ["error", "single"],
+        "dot-notation": "error"
+  }
+}
